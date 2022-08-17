@@ -5,6 +5,7 @@
  * programmer.getInfo();
  * @see https://github.com/luisAriza/learning_jsdocs
  * @todo Implement the rest of methods
+ * @tutorial first-tutorial
  */
 class Programmer {
   /**
