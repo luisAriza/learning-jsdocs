@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs": "jsdoc -c jsdoc.json src/."
+    "docs": "jsdoc -c jsdoc.json src/.",
+    "deploy:docs": "gh-pages -d doc"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "clean-jsdoc-theme": "^4.1.7",
+    "docdash": "^1.2.0",
+    "gh-pages": "^4.0.0",
     "jsdoc": "^3.6.11"
   }
 }
