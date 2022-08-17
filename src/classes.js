@@ -25,7 +25,9 @@ class Programmer {
     );
   }
 }
-
+/**
+ * Know more in {@link Programmer}
+ */
 const programmerOne = new Programmer({ fullname: "Luis Ariza" }, "JavaScript");
 const programmerTwo = new Programmer({ fullname: "Tatiana Sanz" }, "C#");
 
