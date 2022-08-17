@@ -1,5 +1,5 @@
 {
-  "plugins": [],
+  "plugins": ["jsdoc-http-plugin"],
   "sources": {
     "includes": ["src"],
     "includePattern": ".js$",
